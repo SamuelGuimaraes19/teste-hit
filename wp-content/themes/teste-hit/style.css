@@ -1,0 +1,173 @@
+/*
+Theme Name: Teste Hit v1.0
+Theme URI: 
+Description: Tema Wordpress para teste de vaga
+Version: 1.0
+Author: Samuel Guimarães
+Author URI: http://samuelweb.dev.br
+*/
+html { overflow: auto; height: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #2D2D2D;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.logo{
+    max-width: 12%;
+    margin-bottom: 30px;
+	margin-top: 5rem;
+}
+
+
+
+.cardhit{
+background: #EA916B;
+border-radius: 10px;
+width: 70%;
+margin-left: 15%;
+display: -ms-flexbox!important;
+display: flex!important;
+justify-content: space-around;
+}
+
+.titlehit{
+    text-align-last: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.cardhit p{
+    padding: 0px 30px 0px 30px;
+    color: #fff;
+}
+
+form#wpforms-form-10{
+    width: 736px;
+    padding: 15px;
+}
+
+.paddingb5{
+    padding-bottom: 5%;
+}
+
+.paddingt5{
+    padding-bottom: 5%;
+}
+
+.paddingt3{
+    padding-top: 3%;
+}
+
+div.wpforms-container-full .wpforms-form input, textarea#wpforms-10-field_5{
+    border-radius: 5px!important;
+    border: none!important;
+}
+
+.wpforms-submit-container{
+    text-align-last: center;
+}
+
+button#wpforms-submit-10{
+    background: #2d2d2d;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+textarea#wpforms-10-field_5{
+    padding: 15px;
+}
+
+div#wpforms-confirmation-10{
+    background: #ea916b;
+    border: none;
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+.hr5 {
+    border: 1px solid;
+    overflow: visible;
+    padding: 0;
+    color: #707070;
+    text-align: center;
+    -webkit-text-decorations-in-effect: initial;
+    width: 13%;
+  }
+
+.hr5::after {
+    content: "¶";
+    display: inline-block;
+    position: relative;
+    top: -1.8em;
+    font-size: 8px;
+    padding: 0 0.3em;
+    background: #ea916b;
+    width: 29px;
+    color: transparent;
+    background-image: linear-gradient(#EA916B, #E05A4D);
+  }
+
+
+/***** MOBILE E TABLET *****/
+@media screen and (max-width: 1200px) {
+	form#wpforms-form-10{
+		width: 480PX;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+.cardhit{
+    background: #EA916B;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    justify-content: space-around;
+}
+
+.hr5{
+    width: 45%;
+}
+
+form#wpforms-form-10{
+    width: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.nav.nav-tabs.nav-justified{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.logo{
+    max-width: 35%;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+}
